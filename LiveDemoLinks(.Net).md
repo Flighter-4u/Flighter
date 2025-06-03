@@ -8,6 +8,6 @@
   Note:
   "To try the dashboard, contact us at flighter924@gmail.com or flighter4u@gmail.com."
   
-  If you have any questions or issues, please contact us at flighter4u@gmail.com or flighter4u@gmail.com.
+  If you have any questions or issues, please contact us at flighter924@gmail.com or flighter4u@gmail.com.
   
  
