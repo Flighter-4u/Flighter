@@ -73,15 +73,6 @@ cd flighter
   * Windows PC with Visual Studio (for Windows builds)
   * macOS with Xcode (for macOS builds)
 
-#### 🧱 Compile & Run
-
-```bash
-cd src/Flighter
-flutter pub get
-flutter run
-```
----
-
 ### 🧱 Compile & Run the App
 
 ```bash
@@ -191,13 +182,6 @@ dotnet run
 2. Install `app-release.apk` on your Android device
 3. Enable installation from unknown sources if required
 
-#### 🖥️ Web/Desktop (Optional)
-
-1. Open the `/exe/` folder
-2. Launch the corresponding file:
-
-   * Windows: `Flighter.exe`
-   * macOS: `Flighter.app`
 
 🌐 Swagger (API Documentation)
 
