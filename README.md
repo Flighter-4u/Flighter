@@ -67,6 +67,11 @@ cd flighter
 * Flutter SDK: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 * Device/emulator setup
 * Dart-enabled IDE (VS Code/Android Studio)
+* At least one of the following device setups:
+
+  * Chrome (for web)
+  * Windows PC with Visual Studio (for Windows builds)
+  * macOS with Xcode (for macOS builds)
 
 #### 🧱 Compile & Run
 
@@ -75,7 +80,88 @@ cd src/Flighter
 flutter pub get
 flutter run
 ```
+---
 
+### 🧱 Compile & Run the App
+
+```bash
+cd src/Flighter
+flutter pub get
+flutter run
+```
+
+> ℹ️ Use `flutter devices` to list all available platforms on your system.
+
+---
+
+## 🖥️ Platform-Specific Instructions
+
+### 🌐 Web
+
+To run in the browser:
+
+```bash
+flutter run -d chrome
+```
+
+To build a static web app for deployment:
+
+```bash
+flutter build web
+```
+
+Output will be in: `build/web/`
+
+---
+
+### 🪟 Windows
+
+> ⚠️ Requires [Visual Studio](https://visualstudio.microsoft.com/) with the **“Desktop development with C++”** workload.
+
+To build the Windows executable:
+
+```bash
+flutter build windows
+```
+
+Then navigate to:
+
+```
+build/windows/runner/Release/
+```
+
+Launch the app by double-clicking:
+
+```
+Flighter.exe
+```
+
+---
+
+### 🍎 macOS
+
+> ⚠️ Requires a macOS system with [Xcode](https://developer.apple.com/xcode/) installed.
+
+To build the macOS app:
+
+```bash
+flutter build macos
+```
+
+Then go to:
+
+```
+build/macos/Build/Products/Release/
+```
+
+Launch the app:
+
+```
+Flighter.app
+```
+
+---
+You can contact us at flighter4u@gmail.com to request the source code.
 ---
 
 ### 🌐 .NET (Backend)
@@ -101,8 +187,8 @@ dotnet run
 
 #### 📱 Android APK
 
-1. Navigate to `/exe/`
-2. Install `flighter app.apk` on your Android device
+1. Navigate to `/exe/Flighter apk/`
+2. Install `app-release.apk` on your Android device
 3. Enable installation from unknown sources if required
 
 #### 🖥️ Web/Desktop (Optional)
