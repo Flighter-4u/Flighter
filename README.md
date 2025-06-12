@@ -183,7 +183,8 @@ dotnet run
 3. Enable installation from unknown sources if required
 
 
-🌐 Swagger (API Documentation)
+
+#### 🌐 Swagger (API Documentation)
 
 1.You can run the API from the /exe/ folder by launching Flighter.Api.exe.
 2.Once running, open your browser and navigate to:
